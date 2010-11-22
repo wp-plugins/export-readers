@@ -4,7 +4,7 @@ Plugin URI: http://wordpress.org/extend/plugins/export-readers/
 Description: Selectively export all your reader details ( users & commenters )
 Author: dcoda
 Author URI: http://dcoda.co.uk
-Version: 1.0.0
+Version: 1.0.1
  */ 
 $lib = dirname ( __FILE__ ) . '/library/wordpress/w7v/Application.php';
 if (! file_exists ( $lib )) {

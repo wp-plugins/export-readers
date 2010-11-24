@@ -46,6 +46,11 @@ The settings screen contain inbuilt help boxes however you can post support your
 1. Export settings screen
 == Changelog ==
 
+= 1.0.1 =
+
++ update core libraries
++ fixed problem with use of permalink with download clashing with other plugins.
+
 = 1.0.0 =
 
 Initial spec
@@ -55,6 +60,9 @@ Initial spec
 + limit commenters
 == Upgrade Notice ==
 
+= 1.0.1 =
+
+fixed problem with use of permalink with download clashing with other plugins.
 
 == Copyright ==
 

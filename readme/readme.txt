@@ -48,8 +48,12 @@ The settings screen contain inbuilt help boxes however you can post support your
 
 = 1.0.1 =
 
-+ update core libraries
++ update with all library function changes.
++ moved as much styling from page into css as possible
++ solved problem with fnmatch not being available in php for windows platforms will version 5.3
++ improved support of special characters
 + fixed problem with use of permalink with download clashing with other plugins.
++ added support for download when permalinks not set
 
 = 1.0.0 =
 

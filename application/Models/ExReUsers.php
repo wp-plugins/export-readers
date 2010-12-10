@@ -1,5 +1,5 @@
 <?php
-class ExReUsers extends w7v_Table_Users
+class ExReUsers extends w8v_Table_Users
 {
 	public function Users($minDate='1970-01-01 00:00:00')
 	{

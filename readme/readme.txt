@@ -1,13 +1,11 @@
 === ExportReaders ===
 Contributors: dcoda
 Donate link: http://wordpress.dcoda.co.uk/donate/export-readers/
-Tags: csv, export, php5.2, users
+Tags: comments, csv, export, php5.2, users
 Requires at least: 3.0.0
-Tested up to: 3.0.3
+Tested up to: 3.1
 Stable tag: 1.0.2
-
-Selectively export all your reader details ( users & commenters )
-
+Selectively export all your reader details ( users and commenters )
 == Description ==
 
 This plugin is only supported on PHP 5.2 or greater.

@@ -1,5 +1,5 @@
 <?php
-class ExReSettings extends w14v_Table_Options {
+class ExReSettings extends wv15v_Table_Options {
 	public function defaults() {
 		return array ('roles' => array ('Administrator'=>'checked', 'Author'=>'checked', 'Commenter'=>'checked', 'Contributor'=>'checked', 'Editor'=>'checked', 'Subscriber'=>'checked' ), 'comment_count' => 1 );
 	}

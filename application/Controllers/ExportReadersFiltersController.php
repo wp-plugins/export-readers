@@ -1,4 +1,4 @@
 <?php
-class ExportReadersFiltersController extends w14v_Controller_Action_Filter {
+class ExportReadersFiltersController extends wv15v_Controller_Action_Filter {
 }
 		

@@ -1,5 +1,5 @@
 <?php
-class readersCSVController extends w14v_Controller_Action_Control {
+class readersCSVController extends wv15v_Controller_Action_Control {
 	public function indexAction() {
 		if($this->get_user_role()!='administrator')
 		{

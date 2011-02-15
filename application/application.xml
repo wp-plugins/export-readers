@@ -3,7 +3,7 @@
 	<name>ExportReaders</name>
 	<donate_link>http://wordpress.dcoda.co.uk/donate/export-readers/</donate_link>
 	<version>1.1.0</version>
-	<short_desc>Selectively export all your reader details ( users & commenters )</short_desc>
+	<short_desc>Selectively export all your reader details ( users and commenters )</short_desc>
 	<tags>comments</tags>
 	<tags>users</tags>
 	<tags>csv</tags>

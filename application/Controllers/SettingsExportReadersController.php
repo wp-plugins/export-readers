@@ -1,5 +1,5 @@
 <?php
-class SettingsExportReadersController extends w8v_Controller_Action_AdminMenu {
+class SettingsExportReadersController extends w14v_Controller_Action_AdminMenu {
 	public function SettingsAction($content)
 	{
 		$setObj = new ExReSettings();

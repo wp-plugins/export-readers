@@ -2,7 +2,7 @@
 <settings>
 	<name>ExportReaders</name>
 	<donate_link>http://wordpress.dcoda.co.uk/donate/export-readers/</donate_link>
-	<version>1.1.0</version>
+	<version>1.1.0a</version>
 	<short_desc>Selectively export all your reader details ( users and commenters )</short_desc>
 	<tags>comments</tags>
 	<tags>users</tags>

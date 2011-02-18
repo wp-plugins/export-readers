@@ -9,8 +9,7 @@ class readersCSVController extends wv15v_Controller_Action_Control {
 			return;
 		}
 		$this->csv_headers ('readers.csv');
-		$setObj = new ExReSettings ( $this->application());
-		$settings = $setObj->post ('options');
+		$settings = $this->settings()->post ('options');
 		$comments = new ExReComments ( );
 		$com = $comments->Commenters ( $settings ['comment_count'] );
 		$users = new ExReUsers ( );

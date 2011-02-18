@@ -1,6 +1,11 @@
 <?php
-class ExReSettings extends wv15v_Table_Options {
-	public function defaults() {
+class ExReSettings extends wv15v_settings {
+	public function __construct($application)
+	{
+		parent::__construct($application);
+		$this->legacy_move('exreader');
+	}
+/*	public function defaults() {
 		return array ('roles' => array ('Administrator'=>'checked', 'Author'=>'checked', 'Commenter'=>'checked', 'Contributor'=>'checked', 'Editor'=>'checked', 'Subscriber'=>'checked' ), 'comment_count' => 1 );
 	}
 	public function __construct($key = null) {
@@ -30,4 +35,4 @@ class ExReSettings extends wv15v_Table_Options {
 		ksort($values['roles']);	
 		return $values;
 	}
-}
+*/}

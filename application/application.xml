@@ -15,4 +15,4 @@
 	<uri>http://wordpress.org/extend/plugins/export-readers/</uri>
 	<preload>ExReComments</preload>
 	<preload>ExReUsers</preload>
-	<preload>ExReSettings</preload></settings>
+	<handler>ExReSettings</handler></settings>

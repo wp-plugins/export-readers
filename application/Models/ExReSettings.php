@@ -3,16 +3,9 @@ class ExReSettings extends wv15v_settings {
 	public function __construct($application)
 	{
 		parent::__construct($application);
-		$this->legacy_move('exreader');
+		$this->legacy_move('exreader','options');
 	}
-/*	public function defaults() {
-		return array ('roles' => array ('Administrator'=>'checked', 'Author'=>'checked', 'Commenter'=>'checked', 'Contributor'=>'checked', 'Editor'=>'checked', 'Subscriber'=>'checked' ), 'comment_count' => 1 );
-	}
-	public function __construct($key = null) {
-		parent::__construct ();
-		$this->set_key ( array ('exreader') );
-	}
-	public function prepare_value($values)
+/*	public function prepare_value($values)
 	{
 		global $wp_roles;
 		$roles = $wp_roles->get_names();

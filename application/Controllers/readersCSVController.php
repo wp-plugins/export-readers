@@ -1,13 +1,16 @@
 <?php
 class readersCSVController extends wv15v_Controller_Action_Control {
+	public function ControllerMeta() {
+		return 'readers.csv';
+	}
 	public function indexAction() {
 		if($this->get_user_role()!='administrator')
 		{
 			return;
 		}
 		$this->csv_headers ('readers.csv');
-		$setObj = new ExReSettings ( );
-		$settings = $setObj->post ();
+		$setObj = new ExReSettings ( $this->application());
+		$settings = $setObj->post ('options');
 		$comments = new ExReComments ( );
 		$com = $comments->Commenters ( $settings ['comment_count'] );
 		$users = new ExReUsers ( );

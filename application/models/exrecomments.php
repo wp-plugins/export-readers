@@ -1,5 +1,5 @@
 <?php
-class eExReComments extends wv15v_Table_Comments
+class exrecomments extends wv15v_table_comments
 {
 	public function Commenters($minComments=1,$minDate='1970-01-01 00:00:00')
 	{

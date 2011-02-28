@@ -8,4 +8,4 @@ Version: 1.1.0&beta;
  */ 
 require_once  dirname ( __FILE__ ) . '/library/wordpress/wv15v/application.php';
 
-new wv15v_Application ( __FILE__,array('ExReComments','ExReUsers'),'ExReSettings' );
+new wv15v_Application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );

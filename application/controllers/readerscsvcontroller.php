@@ -8,8 +8,8 @@ class readerscsvcontroller extends wv15v_controller_action_control {
 		{
 			return;
 		}
-		//$this->csv_headers ('readers.csv');
-		$this->txt_headers ();
+		$this->csv_headers ('readers.csv');
+		//$this->txt_headers ();
 		$settings = $this->settings()->post ('options');
 		$comments = new ExReComments ( );
 		$com = $comments->Commenters ( $settings ['comment_count'] );

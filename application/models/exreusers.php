@@ -21,7 +21,7 @@ WHERE
 		$results = $this->wpdb ()->get_results ( $sql , ARRAY_A );
 		foreach($results as $key=>$value)
 		{
-			$results[$key]['role'] = implode(' ',array_keys(unserialize($value['role'])));
+			$results[$key]['role'] = implode(' ',array_keys((array)unserialize($value['role'])));
 		}
 		return $results;
 	}

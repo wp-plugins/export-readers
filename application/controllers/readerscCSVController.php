@@ -1,5 +1,5 @@
 <?php
-class readersCSVController extends wv15v_Controller_Action_Control {
+class readerscCSVController extends wv15v_Controller_Action_Control {
 	public function ControllerMeta() {
 		return 'readers.csv';
 	}

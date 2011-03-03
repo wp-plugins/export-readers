@@ -2,7 +2,7 @@
 class readerscsvcontroller extends wv15v_controller_action_control {
 	public function controller_meta() {
 		$return = parent::controller_meta();
-		$return['title'] = 'readers.csv';
+		$return['slug'] = 'readers.csv';
 		return $return;
 	}
 	public function indexAction() {

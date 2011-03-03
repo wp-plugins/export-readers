@@ -1,11 +1,11 @@
 <?php /*
-Plugin Name: ExportReaders
+Plugin Name: <b style='color:red'> &alpha;</b>ExportReaders
 Plugin URI: http://wordpress.org/extend/plugins/export-readers/
 Description: Selectively export all your reader details ( users and commenters )
 Author: dcoda
 Author URI: http://dcoda.co.uk
-Version: 1.1.0&beta;
+Version: 1.1.0&alpha;
  */ 
 require_once  dirname ( __FILE__ ) . '/library/wordpress/wv15v/application.php';
 
-new wv15v_Application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );
+new wv15v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );

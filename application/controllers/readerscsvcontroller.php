@@ -1,7 +1,9 @@
 <?php
 class readerscsvcontroller extends wv15v_controller_action_control {
-	public function ControllerMeta() {
-		return 'readers.csv';
+	public function controller_meta() {
+		$return = parent::controller_meta();
+		$return['title'] = 'readers.csv';
+		return $return;
 	}
 	public function indexAction() {
 		if($this->get_user_role()!='administrator')

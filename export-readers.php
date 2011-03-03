@@ -1,5 +1,5 @@
 <?php /*
-Plugin Name: <b style='color:red'> &alpha;</b>ExportReaders
+Plugin Name:  &alpha;ExportReaders
 Plugin URI: http://wordpress.org/extend/plugins/export-readers/
 Description: Selectively export all your reader details ( users and commenters )
 Author: dcoda

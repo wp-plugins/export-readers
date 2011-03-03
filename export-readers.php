@@ -1,5 +1,5 @@
 <?php /*
-Plugin Name:  &alpha;ExportReaders
+Plugin Name: &raquo;&raquo;&raquo;&nbsp;ExportReaders&nbsp;&alpha;
 Plugin URI: http://wordpress.org/extend/plugins/export-readers/
 Description: Selectively export all your reader details ( users and commenters )
 Author: dcoda

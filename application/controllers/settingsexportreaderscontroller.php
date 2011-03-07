@@ -1,5 +1,5 @@
 <?php
-class settingsexportreaderscontroller extends wv15v_controller_action_adminmenu {
+class settingsexportreaderscontroller extends wv19v_controller_action_adminmenu {
 	public function settingsAction($content)
 	{
 		$this->view->settings = $this->settings()->post('options');

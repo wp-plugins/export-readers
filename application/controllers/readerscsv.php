@@ -5,7 +5,7 @@ class readerscsv extends wv19v_controller_action_control {
 		$return['slug'] = 'readers.csv';
 		return $return;
 	}
-	public function indexAction() {
+	public function catchAllAction() {
 		if($this->get_user_role()!='administrator')
 		{
 			return;

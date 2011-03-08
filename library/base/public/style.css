@@ -1,0 +1,95 @@
+.v19v .delete_icon
+{
+	padding:0;
+	padding-left:20px;
+	padding-top:20px;
+	background-image:url('icon_delete.gif');
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	cursor:help;
+}
+.v19v .copy_icon
+{
+	padding:0;
+	padding-left:20px;
+	padding-top:20px;
+	background-image:url('icon_copy.gif');
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	cursor:help;
+}
+.v19v label.info,
+.v19v span.info
+{
+	padding-right:20px;
+	min-height:20px;
+	background-image:url('icon_info.gif');
+	background-position:right center;
+	background-repeat:no-repeat;
+	cursor:help;
+}
+.v19v .diag_icon
+{
+	padding:0;
+	padding-left:20px;
+	padding-top:20px;
+	background-image:url('icon_diag.gif');
+	background-position:left bottom;
+	background-repeat:no-repeat;
+	cursor:help;
+}
+.v19v .spacer_icon
+{
+	padding:0;
+	padding-left:20px;
+	padding-top:20px;
+}
+.v19v .column_name
+{
+	width:150px;
+}
+.v19v .column_table
+{
+	width:200px;
+}
+.v19v .column_instruciton
+{
+}
+.v19v .column_action
+{
+	text-align:right;
+}
+.v19v .column_source
+{
+	width:60px;
+}
+.v19v input.copy,
+.v19v input.delete,
+{
+	width:20px;
+}
+.v19v .row_new input
+{
+	width:200px;
+}
+.v19v .row_diag textarea
+{
+	width:100%;
+	height:100px;
+}
+.v19v .column_first
+{
+	width:250px;
+	vertical-align:text-top;
+}
+.v19v .row_show .column_second pre
+{
+	overflow:auto;
+	width:800px;
+	max-height:800px;
+}
+.v19v .row_action
+{
+	text-align:right;
+}
+

@@ -9,7 +9,7 @@
 	<?php foreach($this->settings['roles'] as $key=>$value):?>
 		<tr class='<?php echo $this->alternate()?>'>
 			<td><?php echo $key?></td>
-			<td><input type='hidden' name='options[roles][<?php echo $key?>]' value = ''><input type='checkbox' name='options[roles][<?php echo $key?>]' value = 'checked' <?php echo $value?> /></td>
+			<td><input type='hidden' name='roles[<?php echo $key?>]' value = ''><input type='checkbox' name='roles[<?php echo $key?>]' value = 'checked' <?php echo $value?> /></td>
 		</tr>
 	<?php endforeach;?>
 	</tbody>
@@ -24,7 +24,7 @@
 	</thead>
 	<tbody>
 		<tr class='<?php echo $this->alternate()?>'>
-			<td colspan = 2>A commenter must have at least <input type=text name='options[comment_count]' value='<?php echo $this->settings['comment_count']?>' size=2 /> approved comments to be included.</td>
+			<td colspan = 2>A commenter must have at least <input type=text name='comment_count' value='<?php echo $this->settings['comment_count']?>' size=2 /> approved comments to be included.</td>
 		</tr>
 	</tbody>
 </table>

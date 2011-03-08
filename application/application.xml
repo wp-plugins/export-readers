@@ -21,10 +21,9 @@
 		
 		
 		
-		<default>
-			<options><roles>
+		<default><roles>
 			<Administrator>checked</Administrator>
 			<Author>checked</Author>
 			<Commenter>checked</Commenter>
 			<Contributor>checked</Contributor>
-			<Editor>checked</Editor><Subscriber>checked</Subscriber></roles><comment_count>1</comment_count></options></default></options></settings>
+			<Editor>checked</Editor><Subscriber>checked</Subscriber></roles><comment_count>1</comment_count></default></options></settings>

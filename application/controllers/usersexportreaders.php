@@ -1,5 +1,5 @@
 <?php
-class usersexportreaders extends wv23v_controller_action_adminmenu {
+class usersexportreaders extends wv25v_controller_action_adminmenu {
 	public function controller_meta()
 	{
 		$return = parent::controller_meta();

@@ -1,5 +1,5 @@
 <?php
-class exresettings extends wv23v_settings {
+class exresettings extends wv25v_settings {
 	public function __construct($application)
 	{
 		parent::__construct($application);

@@ -9,4 +9,4 @@ Version: 1.1.0:25:&radic;
 require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
 @include_once (ABSPATH.'wp-admin/includes/plugin-install.php');
 	
-new wv25v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );
+new wv26v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );

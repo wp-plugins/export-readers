@@ -1,10 +1,10 @@
 === ExportReaders ===
 Contributors: dcoda
-Donate link: http://wordpress.dcoda.co.uk/donate/export-readers/
+Donate link: http://dcoda.co.uk/wordpress/donate/export-readers/
 Tags: comments, csv, export, php5.2, users
 Requires at least: 3.0.0
 Tested up to: 3.1
-Stable tag: 1.1.0
+Stable tag: 1.2.0a
 Selectively export all your reader details ( users and commenters )
 == Description ==
 

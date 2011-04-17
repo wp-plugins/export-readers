@@ -1,10 +1,10 @@
 <?php /*
-Plugin Name: &alpha;&nbsp;ExportReaders
+Plugin Name: &beta;&nbsp;ExportReaders
 Plugin URI: http://wordpress.org/extend/plugins/export-readers/
 Description: Selectively export all your reader details ( users and commenters )
 Author: dcoda
 Author URI: http://dcoda.co.uk
-Version: 1.2.0.26.&alpha;
+Version: 1.2.0.26.&beta;
  */ 
 require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
 @include_once (ABSPATH.'wp-admin/includes/plugin-install.php');

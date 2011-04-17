@@ -31,8 +31,9 @@ If you require a custom plugin you can contact us <a href="http://dcoda.co.uk/co
 1. Disable and delete any old versions of the plugin.
 2. Copy the plugin folder to `wp-content/plugins`
 3. Log in to WordPress as an administrator.
-4. Enable the plugin in the `Plugins` admin screen.
-5. Visit the admin page `Plugins->Settings->ExportReaders to configure and get further help.
+4. Enable the plugin in the `Plugins` admin panel.
+5. Click the 'Getting started' link that now appears next to the plugin.
+
 == Frequently Asked Questions ==
 
 = Where can I get more help =
@@ -42,29 +43,6 @@ The settings screen contain inbuilt help boxes however you can post support your
 == Screenshots ==
 
 1. Export settings screen
-== Changelog ==
-
-= 1.0.1 =
-
-+ update with all library function changes.
-+ moved as much styling from page into css as possible
-+ solved problem with fnmatch not being available in php for windows platforms will version 5.3
-+ improved support of special characters
-+ fixed problem with use of permalink with download clashing with other plugins.
-+ added support for download when permalinks not set
-
-= 1.0.0 =
-
-Initial spec
-
-+ export users.
-+ export commenters.
-+ limit commenters
-== Upgrade Notice ==
-
-= 1.0.1 =
-
-fixed problem with use of permalink with download clashing with other plugins.
 
 == Copyright ==
 

@@ -9,4 +9,4 @@ Version: 1.2.0.26
 require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
 @include_once (ABSPATH.'wp-admin/includes/plugin-install.php');
 	
-new wv26v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );
+new wv27v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );

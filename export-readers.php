@@ -8,4 +8,4 @@ Version: 1.2.0.27
  */ 
 require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
 
-new wv27v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );
+new wv28v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );

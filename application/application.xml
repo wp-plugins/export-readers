@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<application><name>ExportReaders</name><version>1.2</version><stable_tag>1.2.0.27</stable_tag><wpslug>export-readers</wpslug><slug>exportreaders</slug><uri>http://wordpress.org/extend/plugins/export-readers/</uri><donate_link>http://dcoda.co.uk/wordpress/donate/export-readers/</donate_link><short_desc>Selectively export all your reader details ( users and commenters )</short_desc><tags>comments</tags><tags>users</tags><tags>csv</tags><tags>export</tags><preload>exrecomments</preload><preload>exreusers</preload><handler>exresettings</handler></application><options><roles>
+			<Administrator>checked</Administrator>
+			<Author>checked</Author>
+			<Commenter>checked</Commenter>
+			<Contributor>checked</Contributor>
+			<Editor>checked</Editor><Subscriber>checked</Subscriber></roles><comment_count>1</comment_count></options></settings>

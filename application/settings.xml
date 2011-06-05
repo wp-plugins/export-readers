@@ -17,10 +17,10 @@
 	
 	
 	
-	<application><name>ExportReaders</name><version>1.2</version><slug>exportreaders</slug><handler>exresettings</handler>
+	<application><name>ExportReaders</name><version>1.2</version><slug>exportreaders</slug>
 		<classes><a>exreusers</a><a>exrecomments</a></classes>
 		
-	</application><options><roles>
+		<class>exreapp</class></application><options><roles>
 			<Administrator>checked</Administrator>
 			<Author>checked</Author>
 			<Commenter>checked</Commenter>

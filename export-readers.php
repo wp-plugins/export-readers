@@ -6,5 +6,5 @@ Author: dcoda
 Author URI: http://dcoda.co.uk
 Version: 1.2.28
  */ 
-require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
-$exportreaders = new wv28v_application ( __FILE__,array('exrecomments','exreusers'),'exresettings' );
+require_once  dirname ( __FILE__ ) . '/application/exreapp.php';
+	new exreapp ( __FILE__);

@@ -1,5 +1,9 @@
 <?php
 class usersexportreaders extends wv30v_controller_action_wphooks {
+	public function readers_csvWPpageMeta($return) {
+		$return['slug'] = 'readers.csv';
+		return $return;
+	}
 	public function readers_csvWPpage() {
 		if($this->get_user_role()!='administrator')
 		{

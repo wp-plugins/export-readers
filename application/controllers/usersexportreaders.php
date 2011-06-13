@@ -1,5 +1,5 @@
 <?php
-class usersexportreaders extends wv30v_controller_action {
+class usersexportreaders extends wv30v_action {
 	public function readers_csvWPpageMeta($return) {
 		$return['slug'] = 'readers.csv';
 		return $return;

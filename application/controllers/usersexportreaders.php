@@ -4,6 +4,33 @@ class usersexportreaders extends wv30v_action {
 		$return ['slug'] = 'readers.csv';
 		return $return;
 	}
+	public function Commenters($minComments = 1, $minDate = '1970-01-01 00:00:00') {
+		$sql = "
+SELECT
+	`comment_author` 'name',
+	`comment_author_email` 'email',
+	`comment_author_url` 'url',
+	min(`comment_date`) 'date',
+	'commenter' AS 'role'
+FROM
+	`%s`
+WHERE
+	`comment_approved` = 1 AND
+	`user_id` = 0 AND 
+	`comment_date` >= '%s'
+GROUP BY
+	`comment_author`,
+	`comment_author_email`,
+	`comment_author_url`,
+	`comment_date`
+HAVING
+	count(*) >= %d
+";
+		$comments = new wcv30v_data_table ( 'comments' );
+		$sql = sprintf ( $sql, $comments->name (), $minDate, $minComments );
+		$results = $comments->execute ( $sql );
+		return $results;
+	}
 	public function Users($minDate = '1970-01-01 00:00:00') {
 		$sql = "
 SELECT
@@ -34,8 +61,7 @@ WHERE
 		$this->send_headers ( 'readers.csv' );
 		//$this->txt_headers ();
 		$settings = $this->settings ()->post ( 'options' );
-		$comments = new ExReComments ();
-		$com = $comments->Commenters ( $settings ['comment_count'] );
+		$com = $this->Commenters ( $settings ['comment_count'] );
 		$us = $this->Users ();
 		$roles = array ();
 		foreach ( $settings ['roles'] as $key => $value ) {

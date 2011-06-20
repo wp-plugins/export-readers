@@ -26,7 +26,7 @@ GROUP BY
 HAVING
 	count(*) >= %d
 ";
-		$comments = new wcv30v_data_table ( 'comments' );
+		$comments = new wv30v_data_table ( 'comments' );
 		$sql = sprintf ( $sql, $comments->name (), $minDate, $minComments );
 		$results = $comments->execute ( $sql );
 		return $results;
@@ -45,8 +45,8 @@ FROM
 WHERE
 	`user_registered` >= '%s'
 ";
-		$users = new wcv30v_data_table ( 'users' );
-		$usermeta = new wcv30v_data_table ( 'usermeta' );
+		$users = new wv30v_data_table ( 'users' );
+		$usermeta = new wv30v_data_table ( 'usermeta' );
 		$sql = sprintf ( $sql, $users->name (), $usermeta->name (), $minDate );
 		$results = $users->execute ( $sql );
 		foreach ( $results as $key => $value ) {

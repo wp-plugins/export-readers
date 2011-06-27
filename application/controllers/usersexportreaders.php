@@ -1,5 +1,5 @@
 <?php
-class usersexportreaders extends wv30v_action {
+class usersexportreaders extends wv31v_action {
 	public function readers_csvWPpageMeta($return) {
 		$return ['slug'] = 'readers.csv';
 		return $return;
@@ -26,7 +26,7 @@ GROUP BY
 HAVING
 	count(*) >= %d
 ";
-		$comments = new wv30v_data_table ( 'comments' );
+		$comments = new wv31v_data_table ( 'comments' );
 		$sql = sprintf ( $sql, $comments->name (), $minDate, $minComments );
 		$results = $comments->execute ( $sql );
 		return $results;
@@ -45,8 +45,8 @@ FROM
 WHERE
 	`user_registered` >= '%s'
 ";
-		$users = new wv30v_data_table ( 'users' );
-		$usermeta = new wv30v_data_table ( 'usermeta' );
+		$users = new wv31v_data_table ( 'users' );
+		$usermeta = new wv31v_data_table ( 'usermeta' );
 		$sql = sprintf ( $sql, $users->name (), $usermeta->name (), $minDate );
 		$results = $users->execute ( $sql );
 		foreach ( $results as $key => $value ) {
@@ -100,7 +100,7 @@ WHERE
 	}
 	public function settingsActionMeta($return) {
 		$return ['link_name'] = $return ['title'];
-		$return ['classes'] [] = 'v30v_settings';
+		$return ['classes'] [] = 'v31v_settings';
 		$return ['priority'] = - 1;
 		return $return;
 	}
@@ -110,7 +110,7 @@ WHERE
 	}
 	public function getting_startedActionMeta($return) {
 		$return ['link_name'] = $return ['title'];
-		$return ['classes'] [] = 'v30v_info';
+		$return ['classes'] [] = 'v31v_info';
 		return $return;
 	}
 }

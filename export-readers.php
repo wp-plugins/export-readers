@@ -6,5 +6,5 @@ Author: dcoda
 Author URI: 
 Version: 1.2.31
  */ 
-require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
+require_once  dirname ( __FILE__ ) . '//library/wordpress/application.php';
 new wv31v_application ( __FILE__);

@@ -60,7 +60,7 @@ WHERE
 		}
 		$this->send_headers ( 'readers.csv' );
 		//$this->txt_headers ();
-		$settings = $this->settings ()->post ( 'options' );
+		$settings = $this->application()->data ()->post ( 'options' );
 		$com = $this->Commenters ( $settings ['comment_count'] );
 		$us = $this->Users ();
 		$roles = array ();
@@ -105,7 +105,7 @@ WHERE
 		return $return;
 	}
 	public function settingsAction() {
-		$this->view->settings = $this->settings ()->post ( 'options' );
+		$this->view->settings = $this->application ()->data()->post ( 'options' );
 		$this->view->download_url = $this->control_url ( 'readers.csv' );
 	}
 	public function getting_startedActionMeta($return) {

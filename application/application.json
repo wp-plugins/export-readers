@@ -1,0 +1,31 @@
+{
+	"name":"ExportReaders",
+	"version":"1.3",
+	"status":"release",
+	"slug":"exportreaders",
+	"wordpress":
+	{
+		"uri":"http://exportreaders.dcoda.co.uk/",
+		"stable_tag":"1.3.43",
+		"donate_link":"http://exportreaders.dcoda.co.uk/donate/",
+		"short_desc":"Selectively export all your reader details ( users and commenters )",
+		"tags":[
+			"comments",
+			"users",
+			"csv",
+			"export"
+		],
+		"wpslug":"export-readers"
+	},
+	"help_meta":
+	{
+		"gettingstarted":
+		{
+			"url":"http://exportreaders.dcoda.co.uk/help/"
+		},
+		"settings":
+		{
+			"url":"http://exportreaders.dcoda.co.uk/help/settings"
+		}
+	}
+}

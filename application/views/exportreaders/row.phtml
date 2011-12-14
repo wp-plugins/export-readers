@@ -1,0 +1,26 @@
+<td>
+	<input
+		type='hidden'
+		name='options[roles][<?php echo $this->key?>]'
+		value = ''
+	>
+	<input
+		type='checkbox'
+		name='options[roles][<?php echo $this->key?>]'
+		value = 'checked'
+		<?php echo $this->value?>
+	/>
+</td>
+<td>
+	<b><?php echo $this->key?></b>
+	<?php if($this->key=='Commenter'):?>
+	&nbsp;( A commenter must have at least
+	<input
+		type='text'
+		id='commenter_count'
+		name='options[comment_count]'
+		value = '<?php echo $this->application()->data()->options['comment_count']?>'
+	/>
+	approved comments to be included. )
+	<?php endif ?>
+</td>

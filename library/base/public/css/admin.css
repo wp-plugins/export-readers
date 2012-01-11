@@ -1,0 +1,159 @@
+/***********************************************************************************
+* Menu Tweaks
+***********************************************************************************/
+.v45v ul.subsubsub li
+{
+	padding-left: 1px;
+	padding-right: 0;
+	border-left: 1px solid #aaaaaa;
+}
+.v45v ul.subsubsub li:first-child
+{
+	padding-left: 0;
+	border-left: none;
+}
+/***********************************************************************************
+* Table
+***********************************************************************************/
+.v45v caption
+{
+	padding-top:1em;
+	font-weight: bold;
+	text-align:left;
+}
+.v45v table input[type="text"]
+{
+	width:100%;
+	max-width:200px;
+	margin:0;
+}
+.v45v table select
+{
+	width:100%;
+	max-width:170px;
+	margin:0;
+}
+.v45v table textarea
+{
+	width:100%;
+	margin:0;
+	height:2em;
+}
+.v45v table textarea.expand:focus
+{
+	height:20em;
+}
+.v45v table input[type="text"].number
+{
+	width:3em;
+}
+.v45v table select.number
+{
+	width:4em;
+}
+.v45v table input[type="text"].color_number,
+.v45v table textarea.color_number
+{
+	width:6em;
+}
+.v45v col
+{
+	width:200px;
+}
+.v45v col:last-child
+{
+	width:auto;
+}
+.v45v table.survey_list .col5
+{
+	width:300px;
+}
+.v45v table.exportreaders_list .col1,
+.v45v table.redactor_list .col1,
+.v45v table.delete_list .col1,
+.v45v table.survey_list .col1,
+.v45v table.survey_list .col2,
+.v45v table.survey_list .col4
+{
+	width:22px;
+}
+.v45v tbody th
+{
+	text-align: right;
+	vertical-align: top;
+}
+table.v45v_dummy
+{
+	border:none;
+	padding:0;
+	margin:0;
+}
+ul.v45v_field_definitions,
+ul.v45v_field_definitions li,
+ul.v45v_field_definitions table
+{
+	margin:0;
+	padding:0;
+}
+.v45v_show_hide .subsubsub
+{
+	margin:0;
+	padding:0;
+	font-size:.8em;
+}
+.v45v_body
+{
+	padding-right:29em;
+}
+.v45v_body .v45v_inner
+{
+	padding:0;
+}
+.v45v_sidebar
+{
+	position: absolute;
+	top:71px;
+	right:20px;
+	width:28em;
+}
+v45v_field_definitions td ul.subsubsub,
+v45v_field_definitions td li
+{
+	margin:0!important;
+	padding:0!important;
+}
+.v45v label.disabled
+{
+	color:gray;
+}
+.v45v_sidebar table.v45v_general .col1
+{
+	width:100px;
+}
+
+.v45v th ul.subsubsub
+{
+	margin:0;
+}
+.v45v input.shortcode
+{
+	border:none;
+	background-color:transparent;
+}
+.v45v table .type
+{
+	background-color:#dddddd;
+}
+.v45v table.middle
+{
+	border-bottom:none;
+	margin-bottom:1em;
+}
+.v45v table.top
+{
+	border:none;
+}
+.v45v_show_hide .subsubsub
+{
+	display:none;
+}

@@ -1,17 +1,16 @@
 === ExportReaders ===
 Contributors: dcoda
 Donate link: http://exportreaders.dcoda.co.uk/donate/
-Stable tag: 1.3.43
-Tags: php5.2, comments, users, csv, export
+Stable tag: 1.3.45
+Tags: comments, users, csv, export
 Requires at least: 3.0.0
-Tested up to: 3.3
+Tested up to: 3.3.1
 Selectively export all your reader details ( users and commenters )
 == Description ==
 This plugin is only supported on PHP 5.2 or greater.
 
 <!--description-->
-ExportReaders easily allows you to export your users details for use elsewhere.
-Just select the roles you with to export and set the criteria to select the commenters and download its that simple.
+SurveyMe is an easy to use and easy to modify survey tool for WordPress. Written to be easy to use to none coders.
 <!--description-->
 
 If you are having trouble and cannot find the answers in the <a href="http://exportreaders.dcoda.co.uk/help/faq/">FAQ</a> you can post your support questions to the <a href = "http://wordpress.org/tags/export-readers">WordPress Support Forum</a>
@@ -32,7 +31,7 @@ For frequently asked questions and help click [here](http://exportreaders.dcoda.
 
 (c) Copyright DCoda Limited, 2007 -, All Rights Reserved.
 
-This code is released under the GPL license version 2 or later, available here:
+This code is released under the GPL license version 2, available here:
 
 [http://www.gnu.org/licenses/gpl.txt](http://www.gnu.org/licenses/gpl.txt)
 

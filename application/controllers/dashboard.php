@@ -1,5 +1,5 @@
 <?php
-class exportreaders_dashboard extends wv45v_action {
+class exportreaders_dashboard extends wv46v_action {
 	public function readers_csvWPpageMeta($return) {
 		$return ['slug'] = 'readers.csv';
 		return $return;
@@ -26,7 +26,7 @@ GROUP BY
 HAVING
 	count(*) >= %d
 ";
-		$comments = new wv45v_data_table ( 'comments' );
+		$comments = new wv46v_data_table ( 'comments' );
 		$sql = sprintf ( $sql, $comments->name (), $minDate, $minComments );
 		$results = $comments->execute ( $sql );
 		return $results;
@@ -98,7 +98,7 @@ WHERE
 	}
 	public function settingsActionMeta($return) {
 		$return ['link_name'] = $return ['title'];
-		$return ['classes'] [] = 'v45v_16x16_settings';
+		$return ['classes'] [] = 'v46v_16x16_settings';
 		$return ['priority'] = - 1;
 		return $return;
 	}

@@ -4,8 +4,8 @@ Plugin URI: http://exportreaders.dcoda.co.uk/
 Description: Selectively export all your reader details ( users and commenters )
 Author: dcoda
 Author URI: 
-Version: 1.3.46
+Version: 1.3.47
 License: GPLv2
 */
 @require_once  dirname ( __FILE__ ) . '/library/wordpress/application.php';
-new wv46v_application ( __FILE__);
+new wv47v_application ( __FILE__);

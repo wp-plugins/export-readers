@@ -6,7 +6,7 @@
 	"wordpress":
 	{
 		"uri":"http://exportreaders.dcoda.co.uk/",
-		"stable_tag":"1.3.45",
+		"stable_tag":"1.3.46",
 		"donate_link":"http://exportreaders.dcoda.co.uk/donate/",
 		"short_desc":"Selectively export all your reader details ( users and commenters )",
 		"tags":[

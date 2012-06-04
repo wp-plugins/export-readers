@@ -1,0 +1,16 @@
+{
+	"debug":true,
+	"options":
+	{
+		"roles":
+		{
+			"Administrator":"checked",
+			"Author":"checked",
+			"Commenter":"checked",
+			"Contributor":"checked",
+			"Editor":"checked",
+			"Subscriber":"checked"
+		},
+		"comment_count":1
+	}
+}

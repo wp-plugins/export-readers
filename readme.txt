@@ -1,7 +1,7 @@
 === ExportReaders ===
 Contributors: dcoda
 Donate link: http://exportreaders.dcoda.co.uk/donate/
-Stable tag: 1.3.47
+Stable tag: 1.3.48f
 Tags: comments, users, csv, export
 Requires at least: 3.0.0
 Tested up to: 3.3.1
